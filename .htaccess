@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^(/)?$ index.php [L]
+RewriteRule ^agenda(/)?$ agenda.php [L]
+RewriteRule ^faq(/)?$ faq.php [L]

@@ -1,0 +1,112 @@
+
+	/* 
+		#bf0000; vermelho
+		#064972; azul escuro
+		#0e5b8c; azul claro
+	*/
+
+	* {
+		font-family: 'RobotoRegular', Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		background-color: #efefef;
+	}
+
+	#top {
+		background-color: #dedede;
+		border-bottom: 1px solid #ccc;
+		height: 170px;
+		width: 100%;
+	}
+
+	#header {
+		height: 100%;
+		margin: 0 auto;
+		position: relative;
+		width: 960px;
+	}
+
+	#header img {
+		display: block;
+		left: 50%;
+		margin-left: -480px;
+		position: absolute;
+		vertical-align: middle;
+	}
+
+	#header span {
+		display: block;
+		font: 40px/50px 'RobotoBlack', Arial, sans-serif;
+		left: 50%;
+		margin-left: -330px;
+		position: absolute;
+		text-align: center;
+		top: 40px;
+		vertical-align: middle;
+	}
+
+	#header #menu {
+		height: 30px;
+		float: right;
+		left: 50%;
+		list-style: none;
+		margin-top: 130px;
+		margin-left: 200px;
+		position: absolute;
+		text-align: right;
+		top: 0;
+		width: 280px;
+	}
+
+	#header #menu li {
+		background-color: #FFF;
+		border-radius: 6px;
+		cursor: pointer;
+		display: inline;
+		margin: 0 3px;
+		padding: 7px 10px;
+		-moz-border-radius: 6px;
+		-moz-box-shadow: 0 0 6px #c6c6c6;
+		-webkit-border-radius: 6px;
+		-webkit-box-shadow: 0 0 6px #c6c6c6;
+	}
+
+	#header #menu li.selected {
+		background-color: #bf0000;
+	}
+
+	#header #menu li a {
+		color: #595959;
+		text-decoration: none;
+	}
+
+	#header #menu li.selected a {
+		color: #FFF;
+	}
+		
+	#middle {
+		margin: 40px auto;
+		position: relative;
+		width: 960px;
+	}
+
+	#bottom {
+		background-color: #FFF;
+		color: #999;
+		height: 50px;
+		line-height: 50px;
+		margin-top: 40px;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+		-moz-box-shadow: 0 0 6px #c6c6c6;
+		-webkit-box-shadow: 0 0 6px #c6c6c6;
+	}
+
+	.clear {
+		clear: both;
+	}
+

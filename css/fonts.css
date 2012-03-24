@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('roboto/Roboto-Light-webfont.eot');
+    src: url('roboto/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto/Roboto-Light-webfont.woff') format('woff'),
+         url('roboto/Roboto-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('roboto/Roboto-Regular-webfont.eot');
+    src: url('roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('roboto/Roboto-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('roboto/Roboto-Black-webfont.eot');
+    src: url('roboto/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto/Roboto-Black-webfont.woff') format('woff'),
+         url('roboto/Roboto-Black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
