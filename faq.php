@@ -45,6 +45,14 @@
 				width: 100%;
 			}
 
+			.piracema {
+				color: #cc0000;
+			}
+
+			.urbes {
+				color: #00CC00;
+			}
+
 		</style>
 		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDyFF-3JC8dszBJFX_VITT76XA5dhogAnE&sensor=true"></script>
 		<script type="text/javascript" src="js/infobox.js"></script>
