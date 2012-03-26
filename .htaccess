@@ -2,3 +2,4 @@ RewriteEngine on
 RewriteRule ^(/)?$ index.php [L]
 RewriteRule ^agenda(/)?$ agenda.php [L]
 RewriteRule ^faq(/)?$ faq.php [L]
+RewriteRule ^inscricao(/)?$ inscricao.php [L]

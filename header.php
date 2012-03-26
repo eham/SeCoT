@@ -1,5 +1,6 @@
 <div id="header">
 	<?php
+		/*
 		if(isset($_GET["logo3"])){
 			echo '<img src="img/logo3.png" style="height: 185px; margin-top: 10px;" />';
 		} else if(isset($_GET["logo2"])){
@@ -7,7 +8,9 @@
 		} else {
 			echo '<img src="img/logo.png" />';
 		}
+		*/
 	?>
+	<img src="img/logo3.png" style="height: 185px; margin-top: 10px;" />
 	<span>IV Semana da Computação<br/>e Tecnologia</span>
 	<ul id="menu">
 		<li <?php if($page == "index") echo "class=\"selected\""; ?> ><a href="/?view=test">Início</a></li>
