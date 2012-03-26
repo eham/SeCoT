@@ -62,6 +62,7 @@
 				<div class="title">Inscrição</div>
 				<form>
 					<input type="text" id="name"		placeholder="Nome" 			/><br />
+					<input type="text" id="email"		placeholder="Email" 		/><br />
 					<input type="text" id="rg"			placeholder="RG" 			/><br />
 					<input type="text" id="instituicao" placeholder="Instituição" 	/><br />
 				</form>
