@@ -40,14 +40,49 @@
 
 			form {
 				margin: 30px;
+				width: 100%;
 			}
 
-			form input {
+			#info input {
 				border: 1px solid #ccc;
 				height: 30px;
 				margin-bottom: 5px;
 				padding: 3px 10px;
 				width: 300px;
+			}
+
+			#info,
+			#palestras {
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			#palestras {
+				margin-left: 40px;
+			}
+
+			#info span,
+			#palestras span {
+				font-size: 20px;
+			}
+
+			#palestras input {
+				margin-right: 10px;
+			}
+
+			#submit {
+				background-color: #bf0000;
+				border: 0px;
+				color: #FFF;
+				cursor: pointer;
+				display: block;
+				font-size: 20px;
+				height: 50px;
+				line-height: 50px;
+				margin: 30px 0px -30px -30px;
+				padding-left: 30px;
+				vertical-align: middle;
+				width: 100%;
 			}
 
 		</style>
@@ -61,10 +96,22 @@
 			<div id="content">
 				<div class="title">Inscrição</div>
 				<form>
-					<input type="text" id="name"		placeholder="Nome" 			/><br />
-					<input type="text" id="email"		placeholder="Email" 		/><br />
-					<input type="text" id="rg"			placeholder="RG" 			/><br />
-					<input type="text" id="instituicao" placeholder="Instituição" 	/><br />
+					<div id="info">
+						<span>Dados Pessoais:</span></br></br>
+						<input type="text" id="name"		placeholder="Nome" 			/><br />
+						<input type="text" id="email"		placeholder="Email" 		/><br />
+						<input type="text" id="rg"			placeholder="RG" 			/><br />
+						<input type="text" id="instituicao" placeholder="Instituição" 	/><br />
+					</div>
+					<div id="palestras">
+						<span>Palestras escolhidas:</span></br></br>
+						<input type="checkbox" />Design centrado no Usuário - Dr. Paulo Mello<br/>
+						<input type="checkbox" />Javascript - Nando<br/>
+						<input type="checkbox" />?? - Dr. Ricardo Oliveira<br/>
+						<input type="checkbox" />?? - Dr. Jurandy Gomes de Almeida Jr<br/>
+						<input type="checkbox" />?? - Andre (Claro)<br/>
+					</div>
+					<input type="submit" value="Concluir inscrição" id="submit" />
 				</form>
 			</div>
 			<div class="clear"></div>
