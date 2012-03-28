@@ -265,7 +265,7 @@
 				<span class="pergunta">Eu recebo um certificado ao final do evento?</span>
 				<p>Sim, você receberá um certificado após o término do evento. Será divulgada uma data para retirá-lo na UFSCar Sorocaba.</p>
 				<span class="pergunta">Quem são os organizadores do evento?</span>
-				<p>Os alunos de Ciência da Computação da UFSCar Sorocaba: ...</p>						
+				<p>Os alunos de Ciência da Computação da UFSCar Sorocaba: ....</p>						
 			</div>
 			<div class="clear"></div>
 		</div>
